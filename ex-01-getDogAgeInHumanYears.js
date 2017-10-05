@@ -15,11 +15,13 @@
 */
 
 
+
 let dog = {
   name: 'Abby',
   age: 7,
   legs: 4
 }
+
 
 /*
  * Write the logic '.getDogAgeInHumanYears()' method for `dog` below :
@@ -27,7 +29,10 @@ let dog = {
 
 dog.getDogAgeInHumanYears = function(){
   // Your code here
-}
+  this.age = this.age * 7
+// console.log(this.age)
+return this.age
+  }
 
 
 

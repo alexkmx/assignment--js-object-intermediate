@@ -9,7 +9,13 @@
  *   => ['pid', 'title', 'price']
  *
 */
+function getKeys(objeto){
+	for(var i = 0; i < objeto.length; i++){
+console.log(objeto[i]);
+	}
 
+
+}
 
 
 

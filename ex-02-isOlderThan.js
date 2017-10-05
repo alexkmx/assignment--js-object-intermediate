@@ -15,6 +15,15 @@ let someGirl = {
 /*
  * On the `someGirl` object, write the '.isOlderThan()' method and its logic  below :
 */
+someGirl.isOlderThan = function(getNumber){
+  if (this.age <= getNumber){
+    // console.log(getNumber);
+// console.log(getNumber);
+    return false;
+  }
+
+  return true;
+  }
 
 
 

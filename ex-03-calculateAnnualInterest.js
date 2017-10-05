@@ -19,6 +19,15 @@ let someGuy = {
   creditScore: 310
 }
 
+someGuy.calculateAnnualInterest = function(annualInterest){
+  // var intPor = this.creditScore
+  // if(this.creditScore < 200) {
+  //  intPor =  intPor * .80
+    console.log(annualInterest);
+  // }
+}
+
+
 
 //*~*~*-*~*~*~*~*~ Don't Touch *~*~*~*~*~*~*~*~*~*~*~
 console.assert( someGuy.calculateAnnualInterest(40) === 4 )
